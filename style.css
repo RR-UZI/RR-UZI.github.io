@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&family=Tilt+Prism&display=swap');
+
+:root {
+    --blanco: white;
+  }
+
+.introduccion h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 1cm;
+    color: var(--blanco);
+    text-align: center;
+}
+
+.introduccion h2 {
+    color: whitesmoke;
+    text-align: left;
+}
+.introduccion p {
+    font-family: 'Chathura', sans-serif;
+    color: white;
+    text-align: left;
+    text-align: justify;
+}
+
+.foto img {
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.introduccion {
+    border: 1px solid black ;
+    background-color: #34495E;
+    float: center;
+    width: 100%;
+    height: 500px;
+    
+  }
+
+.education{
+    float: left;
+    align-items: center;
+    justify-content: center;
+    background: #CCD1D1;
+    width: 45%;
+    height: 1250px;
+}
+.mail img{
+    max-width: 7%;
+    max-height: 10%;
+    float: left;
+}
+.phone img{
+    max-width: 7%;
+    max-height: 10%;
+    float: left;
+}
+.contact img{
+    max-width: 7%;
+    max-height: 10%;
+    float: left;
+}
+.location img{
+    max-width: 7%;
+    max-height: 10%;
+    float: left;
+}
+
+.labor h1{
+    color: red;
+}
+
+.content {
+    float: rigth;
+    margin-left: 200mm;
+}
+
